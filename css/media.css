@@ -119,6 +119,9 @@
 	.burger {
 		display: none;
 	}
+	.card_selector {
+		display: none;
+	}
 
 	.last_built_card {
 		margin: auto;
