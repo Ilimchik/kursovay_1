@@ -119,6 +119,11 @@
 	.burger {
 		display: none;
 	}
+
+	.last_built_card {
+		margin: auto;
+		margin-bottom: 30px;
+	}
 }
 
 @media screen and (max-width: 990px) {
@@ -128,6 +133,24 @@
 
 	.burger {
 		display: none;
+	}
+
+	.card_selector {
+		display: none;
+	}
+
+	.price_card {
+		margin: auto;
+		margin-bottom: 30px;
+	}
+
+	.last_built_card {
+		margin: auto;
+		margin-bottom: 30px;
+	}
+
+	.last_price_card {
+		margin: auto;
 	}
 }
 
@@ -146,7 +169,16 @@
 
 	.burger {
 		display: block;
-		left: ;
+		margin-top: -35px;
+		margin-left: 410px;
+	}
+
+	.nav_img {
+		margin-top: -25px;
+	}
+
+	.card_selector {
+		display: none;
 	}
 }
 
@@ -154,10 +186,27 @@
 	.container {
 		max-width: 420px;
 	}
+
+	.burger {
+		display: block;
+		margin-top: -35px;
+		margin-left: 330px;
+	}
+
+	.built_card {
+		margin: auto;
+		margin-bottom: 50px;
+	}
 }
 
 @media screen and (max-width: 450px) {
 	.container {
 		max-width: 100%;
+	}
+
+	.burger {
+		display: block;
+		margin-top: -35px;
+		margin-left: 320px;
 	}
 }
