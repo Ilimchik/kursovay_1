@@ -204,7 +204,24 @@ header {
 	max-width: 379px;
 	justify-content: space-between;
 }
+.menu a {
+	margin-right: 8px;
+	padding: 4px 16px;
+	color: #2C2F24;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	border-radius: 34px;
+	transition: 0.3s;
+}
 
+.menu li:last-child a {
+	margin-right: 0;
+}
+
+.menu a:hover {
+	background: #DBDFD0;
+}
 .head_nav {
 	padding-right: 20px;
 	color: #22343D;
