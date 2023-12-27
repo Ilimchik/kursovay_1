@@ -200,25 +200,26 @@ header {
 }
 
 .menu {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #828282;
-    padding: 32px 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #828282;
+	padding: 32px 0;
 }
 
 .menu a {
-    transition: 0.5s;
+	transition: 0.5s;
 	color: #22343D;
-	font-family: Poppins;
 	font-size: 16px;
-	font-style: normal;
 	font-weight: 400;
 	line-height: 28px;
+	font-family: inherit;
+	line-height: inherit;
+	text-decoration: none;
 }
 
 .menu a:hover {
-    color: #070707;
+	color: #070707;
 }
 
 .sing_in {
@@ -262,7 +263,8 @@ header {
 	margin-top: 145px;
 	width: 40%;
 }
-.work_right{
+
+.work_right {
 	width: 60%;
 }
 
@@ -887,8 +889,7 @@ header {
 }
 
 .footer_input {
-	p15
-	border-radius: 4px;
+	p15 border-radius: 4px;
 	border: 1px solid #BCD0E5;
 	background: #FFF;
 	width: 325px;
