@@ -120,6 +120,14 @@
 	.container {
 		max-width: 750px;
 	}
+
+	.navigation{
+		display: none;
+	}
+	.head_btns {
+		display: none;
+	}
+	
 }
 
 @media screen and (max-width: 780px) {
