@@ -40,6 +40,10 @@
 		margin-bottom: 30px;
 	}
 
+	.price_card {
+		margin-bottom: 30px;
+	}
+
 	.work_main {
 		flex-direction: column;
 	}
@@ -94,9 +98,6 @@
 	.join_right {
 		margin: auto;
 	}
-
-	.join_tit {}
-
 	.join_btn {
 		margin: auto;
 	}
@@ -104,8 +105,6 @@
 	.main_footer {
 		flex-direction: column;
 	}
-
-	.footer_logos {}
 
 	.socials {
 		max-width: 160px;
