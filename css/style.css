@@ -212,10 +212,12 @@ header {
 	max-width: 379px;
 	justify-content: space-between;
 }
-.head_btns{
-	max-width: 250px;
+
+.head_btns {
+	width: 220px;
 
 }
+
 .menu a {
 	transition: 0.5s;
 	color: #22343D;
