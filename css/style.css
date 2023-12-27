@@ -235,6 +235,7 @@ header {
 }
 .burger{
 	width: 30px;
+	display: none;
 }
 .line{
 	height: 5px;

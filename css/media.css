@@ -98,6 +98,7 @@
 	.join_right {
 		margin: auto;
 	}
+
 	.join_btn {
 		margin: auto;
 	}
@@ -114,6 +115,10 @@
 	.footer_main_menu {
 		margin-bottom: 30px;
 	}
+
+	.burger {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 990px) {
@@ -121,18 +126,27 @@
 		max-width: 750px;
 	}
 
-	.navigation{
+	.burger {
 		display: none;
 	}
-	.head_btns {
-		display: none;
-	}
-	
 }
 
 @media screen and (max-width: 780px) {
 	.container {
 		max-width: 510px;
+	}
+
+	.navigation {
+		display: none;
+	}
+
+	.head_btns {
+		display: none;
+	}
+
+	.burger {
+		display: block;
+		left: ;
 	}
 }
 
