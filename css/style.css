@@ -323,6 +323,9 @@ header {
 	margin-top: 25px;
 }
 
+/* .built_cards{
+	background: url(/img/product_bg.png);
+} */
 .built_tit {
 	margin-top: 114px;
 	max-width: 520px;
@@ -331,15 +334,21 @@ header {
 	font-weight: 700;
 	margin-bottom: 57px;
 }
+
 .built_card {
 	max-width: 240px;
 	margin-bottom: 60px;
 }
-.prod_bg{
-	position: relative	;
-	transform: translateZ(6px);
-	transform: translateY(-300px);
+
+.prod_bg {
+	position: relative;
 }
+
+/* .prod_bg_img{
+	position: absolute;
+	transform: translateZ(1);
+	transform: translateY(-300px);
+} */
 .built_c_icon {
 	padding: 19px 18px 19px 19px;
 	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
@@ -400,7 +409,6 @@ header {
 }
 
 .built_btn {
-	transform: translateY(-450px);
 	margin: auto;
 	width: 175px;
 	height: 53px;
@@ -495,6 +503,14 @@ header {
 	width: 388px;
 }
 
+.coment_1_media {
+	width: 388px;
+}
+
+.coment_1_media_2 {
+	width: 388px;
+}
+
 .com_img_1 {
 	width: 98px;
 	height: 98px;
@@ -513,7 +529,7 @@ header {
 
 .coments_2 {
 	max-width: 1070px;
-	margin-bottom: 35px;
+	margin-bottom: -135px;
 }
 
 .com_txt_2 {
@@ -620,10 +636,6 @@ header {
 	transition: 0.4s;
 }
 
-.price_tit:hover {
-	color: #fff;
-}
-
 .price_txt {
 	margin: auto;
 	text-align: center;
@@ -640,11 +652,6 @@ header {
 	transition: 0.4s;
 }
 
-.price_card:hover {
-	border-radius: 8px;
-	background: #02897A;
-	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
-}
 
 .main_price_desc {
 	margin-bottom: 16px;
@@ -660,10 +667,6 @@ header {
 	transition: 0.4s;
 }
 
-.price_desc:hover {
-	color: #fff
-}
-
 .zero {
 	width: 50px;
 	height: 100px;
@@ -676,8 +679,16 @@ header {
 	transition: 0.4s;
 }
 
-.zero:hover {
-	color: #fff;
+.ten {
+	width: 80px;
+	height: 100px;
+	color: #02897A;
+	text-align: center;
+	font-size: 76px;
+	font-weight: 700;
+	line-height: 100px;
+	letter-spacing: 0.2px;
+	transition: 0.4s;
 }
 
 .curr {
@@ -689,10 +700,6 @@ header {
 	line-height: 30px;
 	letter-spacing: 0.1px;
 	transition: 0.4s;
-}
-
-.curr:hover {
-	color: #fff
 }
 
 .dollar {
@@ -719,12 +726,6 @@ header {
 	padding: 11px 19px 11px 18px;
 	justify-content: center;
 	align-items: center;
-}
-
-.ord_btn:hover {
-	color: #02897A;
-	border-radius: 8px;
-	background: #FFF;
 }
 
 /* clients */
@@ -806,14 +807,11 @@ header {
 	border: 1px solid #DEDEDE;
 	border-radius: 32px;
 	transition: 0.4s;
-}
-
-.join_card:hover {
 	background: #02897A;
-	color: #fff;
 }
 
 .join_tit {
+	color: #FFF;
 	text-align: left;
 	max-width: 510px;
 	margin-bottom: 110px;
@@ -821,10 +819,6 @@ header {
 	font-weight: 600;
 	line-height: 151.4%;
 	transition: 0.4s;
-}
-
-.join_tit:hover {
-	color: #fff;
 }
 
 .join_left {
@@ -837,8 +831,14 @@ header {
 }
 
 .join_btn {
+	color: #FFF;
 	border: solid 1px #DEDEDE;
 	width: 150px;
+}
+
+.join_btn:hover {
+	background: #FFF;
+	color: #02897A;
 }
 
 /* footer */
@@ -875,7 +875,7 @@ header {
 .know_txt {
 	max-width: 280px;
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 30px;
 	margin-bottom: 34px;
 }
@@ -893,7 +893,8 @@ header {
 	border: solid 1px #DEDEDE;
 	border-radius: 4px;
 	width: 131px;
-	height: 39px;
+	height: 50px;
+	font-weight: 700;
 }
 
 .footer_copy {

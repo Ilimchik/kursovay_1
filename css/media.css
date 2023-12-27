@@ -1,25 +1,112 @@
 @media screen and (max-width: 1300px) {
-	.container{
+	.container {
 		max-width: 960px;
 	}
+
+	body {
+		align-items: center;
+	}
+
+	.flex {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.work_main {
+		flex-direction: column;
+	}
+
+	.man_left {
+		width: 100%;
+	}
+
+	.customer {
+		flex-direction: column;
+	}
+
+	.cust_left {
+		margin-bottom: 50px;
+	}
+
+	.coment_1_media {
+		flex-direction: row-reverse;
+	}
+
+	.coment_1_media_2 {
+		flex-direction: row-reverse;
+
+	}
+
+	.cust_mark_1 {
+		max-width: 430px;
+	}
+
+	.content_cards {
+		flex-direction: column;
+	}
+
+	.content_btn {
+		margin: auto;
+		margin-bottom: 50px;
+	}
+
+	.client_cards {
+		flex-direction: column;
+	}
+
+	.client_card {
+		margin: auto;
+		margin-bottom: 40px;
+	}
+
+	.join_card {
+		flex-direction: column;
+	}
+
+	.join_right {
+		margin: auto;
+	}
+	.join_tit{
+		
+	}
+	.join_btn{
+		margin: auto;
+	}
+	.main_footer {
+		flex-direction: column;
+	}
+	.footer_logos{
+	
+	}
+	.socials {
+		max-width: 160px;
+		margin-bottom: 30px;
+	}
+	.footer_main_menu{
+		margin-bottom: 30px;
+	}
 }
+
 @media screen and (max-width: 990px) {
-	.container{
+	.container {
 		max-width: 750px;
 	}
 }
+
 @media screen and (max-width: 780px) {
-	.container{
+	.container {
 		max-width: 510px;
 	}
 }
+
 @media screen and (max-width: 540px) {
-	.container{
+	.container {
 		max-width: 420px;
 	}
 }
+
 @media screen and (max-width: 450px) {
-	.container{
+	.container {
 		max-width: 100%;
 	}
 }
