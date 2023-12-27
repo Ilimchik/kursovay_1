@@ -74,7 +74,7 @@
 	}
 
 	.content_cards {
-		flex-direction: column;
+		margin: auto;
 	}
 
 	.content_btn {
@@ -82,9 +82,7 @@
 		margin-bottom: 50px;
 	}
 
-	.client_cards {
-		flex-direction: column;
-	}
+
 
 	.client_card {
 		margin: auto;
@@ -124,6 +122,10 @@
 	}
 
 	.last_built_card {
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	.price_card{
 		margin: auto;
 		margin-bottom: 30px;
 	}
