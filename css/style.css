@@ -257,9 +257,12 @@ header {
 
 /* work */
 
-.work_right {
+.work_left {
 	margin-top: 145px;
 	width: 40%;
+}
+.work_right{
+	width: 60%;
 }
 
 .work_tit {
