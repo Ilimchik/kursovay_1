@@ -915,7 +915,8 @@ header {
 }
 
 .footer_input {
-	p15 border-radius: 4px;
+	padding: 10px;
+	border-radius: 4px;
 	border: 1px solid #BCD0E5;
 	background: #FFF;
 	width: 325px;
