@@ -233,15 +233,18 @@ header {
 	font-weight: 700;
 	color: #070707;
 }
-.burger{
+
+.burger {
 	width: 30px;
 	display: none;
 }
-.line{
+
+.line {
 	height: 5px;
 	background: #2a414c;
 	margin-bottom: 3px;
 }
+
 .sing_in {
 	padding-top: 10px;
 	text-align: center;
@@ -594,13 +597,16 @@ header {
 
 .content_card {
 	transition: 0.3S;
-}
-
-.content_card:hover {
-	box-shadow: 0px 5px 5px 0px;
 	border-radius: 8px;
 	overflow: hidden;
 }
+
+.swiper {
+	width: 400px;
+	height: 400px;
+}
+
+.content_card:hover {}
 
 .com_tit {
 	transition: 0.3S;
