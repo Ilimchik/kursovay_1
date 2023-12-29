@@ -157,7 +157,8 @@
 	.last_price_card {
 		margin: auto;
 	}
-	.know{
+
+	.know {
 		margin: auto;
 	}
 
@@ -189,7 +190,8 @@
 	.card_selector {
 		display: none;
 	}
-	.footer_btn{
+
+	.footer_btn {
 		margin: auto;
 	}
 }
