@@ -169,18 +169,16 @@
 		max-width: 510px;
 	}
 
+	#menuToggle {
+		display: block;
+	}
+
 	.navigation {
 		display: none;
 	}
 
 	.head_btns {
 		display: none;
-	}
-
-	.burger {
-		display: block;
-		margin-top: -35px;
-		margin-left: 410px;
 	}
 
 	.nav_img {
@@ -194,6 +192,16 @@
 	.footer_btn {
 		margin: auto;
 	}
+
+	#menu {
+		margin: -60px 0 0 -620px;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	#menu {
+		margin: -60px 0 0 -580px;
+	}
 }
 
 @media screen and (max-width: 540px) {
@@ -201,16 +209,20 @@
 		max-width: 420px;
 	}
 
-	.burger {
-		display: block;
-		margin-top: -35px;
-		margin-left: 330px;
-	}
-
 	.built_card {
 		margin: auto;
 		margin-bottom: 50px;
 	}
+
+	#menuToggle {
+		display: block;
+		left: 400px;
+	}
+
+	#menu {
+		margin: -60px 0 0 -475px;
+	}
+
 }
 
 @media screen and (max-width: 450px) {
@@ -218,9 +230,22 @@
 		max-width: 100%;
 	}
 
-	.burger {
+	#menuToggle {
 		display: block;
-		margin-top: -35px;
-		margin-left: 320px;
+		left: 340px;
+		margin-top: 3px;
+	}
+	#menu {
+		margin: -60px 0 0 -370px;
+	}
+	.footer_logos{
+		margin: auto;
+	}
+	.main_footer {
+		flex-direction: column;
+	}
+	.footer_main_menu{
+		margin: auto;
+		margin-bottom: 30px;
 	}
 }
