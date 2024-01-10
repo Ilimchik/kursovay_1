@@ -821,6 +821,7 @@ body {
 }
 
 .price_card {
+	padding-right: 20px;
 	padding-top: 24px;
 	width: 322px;
 	border-radius: 8px;

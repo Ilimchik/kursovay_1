@@ -5,7 +5,10 @@ const swiper = new Swiper('.swiper', {
     autoplay: {
         delay: 2000,
     },
-
+    480: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+    },
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
