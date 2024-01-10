@@ -10,6 +10,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
@@ -290,13 +291,11 @@
 				<p class="sec_txt content_txt">We focus on ergonomics and meeting you where you work. It's only a
 					keystroke away.
 				</p>
-
-				<!-- Slider main container -->
-				<div class="swiper">
-					<!-- Additional required wrapper -->
+				<!-- Swiper -->
+				<div class="swiper mySwiper">
 					<div class="swiper-wrapper">
-						<!-- Slides -->
-						<div class="swiper-slide flex"> <a href="" class="content_btn">
+						<div class="swiper-slide">
+							<a href="" class="content_btn">
 								<div class="content_card">
 									<div class="content_img">
 										<img src="img/content_img_1.jpg" alt="">
@@ -307,17 +306,8 @@
 								</div>
 							</a>
 						</div>
-						<div class="swiper-slide"> <a href="" class="content_btn">
-								<div class="content_card">
-									<div class="content_img">
-										<img src="img/content_img_2.jpg" alt="">
-									</div>
-									<div class="sec_desc content_desc">By <strong>Wahid Ari</strong> | 03 March 2019
-									</div>
-									<h3 class="sec_tit com_tit">Motivation Is The First Step To Success</h3>
-								</div>
-							</a></div>
-						<div class="swiper-slide"> <a href="" class="content_btn">
+						<div class="swiper-slide">
+							<a href="" class="content_btn">
 								<div class="content_card">
 									<div class="content_img">
 										<img src="img/content_img_3.jpg" alt="">
@@ -326,31 +316,47 @@
 									</div>
 									<h3 class="sec_tit com_tit">Success Steps For Your Personal Or Business</h3>
 								</div>
-							</a></div>
-							<div class="swiper-slide flex"> <a href="" class="content_btn">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="" class="content_btn">
 								<div class="content_card">
 									<div class="content_img">
-										<img src="img/content_img_1.jpg" alt="">
+										<img src="img/content_img_2.jpg" alt="">
 									</div>
 									<div class="sec_desc content_desc">By <strong>Wahid Ari</strong> | 03 March 2019
 									</div>
-									<h3 class="sec_tit com_tit">Increasing Prosperity With Positive Thinking</h3>
+									<h3 class="sec_tit com_tit">Motivation Is The First Step To Success</h3>
 								</div>
 							</a>
 						</div>
-
-						...
 					</div>
-					<!-- If we need pagination -->
 					<div class="swiper-pagination"></div>
-
-					<!-- If we need navigation buttons -->
-					<!-- <div class="swiper-button-prev"></div>
-					<div class="swiper-button-next"></div> -->
-
-					<!-- If we need scrollbar -->
-					<!-- <div class="swiper-scrollbar"></div> -->
 				</div>
+
+				<!-- Swiper JS -->
+				<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+				<!-- Initialize Swiper -->
+				<script>
+					var swiper = new Swiper(".mySwiper", {
+						effect: "coverflow",
+						grabCursor: true,
+						centeredSlides: true,
+						slidesPerView: "auto",
+						coverflowEffect: {
+							rotate: 50,
+							stretch: 0,
+							depth: 100,
+							modifier: 1,
+							slideShadows: true,
+						},
+						pagination: {
+							el: ".swiper-pagination",
+						},
+					});
+				</script>
+
 			</div>
 		</div>
 		</div>
@@ -361,58 +367,22 @@
 			<p class="sec_txt price_txt">We offer competitive price</p>
 			<div class="price_cards flex">
 				<div class="price_card">
-					<h3 class="sec_tit price_tit">Free</h3>
-					<p class="sec_desc price_desc main_price_desc">Brief price description</p>
-					<div class="cost">
-						<div class="dollar flex">
-							<p class="zero">0</p>
-							<div class="main_curr">
-								<p class="curr">$</p>
-								<p class="sec_desc price_desc">Per / month</p>
+					<div class="price_card_tit">Free</div>
+					<div class="price_card_desc">Brief price description<div>
+							<div class="card_price flex">
+								<div class="number">0</div>
+								<div class="price_number ">
+									<div class="curr">$</div>
+									<div class="per_curr">Per / month</div>
+								</div>
 							</div>
+							<div class="price_card_txt">Only 2 Operators</div>
+							<div class="price_card_txt">Notifications</div>
+							<div class="price_card_txt">Landing Pages</div>
+							<button class="price_btn btn">Order Now</button>
 						</div>
-						<p class="sec_desc price_desc">Only 2 Operators</p>
-						<p class="sec_desc price_desc">Notifications</p>
-						<p class="sec_desc price_desc last_price_desc">Landing Pages</p>
-						<a href="#" class="btn ord_btn">Order Now</a>
 					</div>
 				</div>
-				<div class="price_card">
-					<h3 class="sec_tit price_tit">Standard</h3>
-					<p class="sec_desc price_desc main_price_desc">Brief price description</p>
-					<div class="cost">
-						<div class="dollar flex">
-							<p class="zero">5</p>
-							<div class="main_curr">
-								<p class="curr">$</p>
-								<p class="sec_desc price_desc">Per / month</p>
-							</div>
-						</div>
-						<p class="sec_desc price_desc">5+ Operators</p>
-						<p class="sec_desc price_desc">Notifications</p>
-						<p class="sec_desc price_desc last_price_desc">Landing Pages</p>
-						<a href="#" class="btn ord_btn">Order Now</a>
-					</div>
-				</div>
-				<div class="price_card last_price_card">
-					<h3 class="sec_tit price_tit">Premium</h3>
-					<p class="sec_desc price_desc main_price_desc">Brief price description</p>
-					<div class="cost">
-						<div class="dollar flex">
-							<p class="ten">10</p>
-							<div class="main_curr">
-								<p class="curr">$</p>
-								<p class="sec_desc price_desc">Per / month</p>
-							</div>
-						</div>
-						<p class="sec_desc price_desc">10+ Operators</p>
-						<p class="sec_desc price_desc">Notifications</p>
-						<p class="sec_desc price_desc last_price_desc">Landing Pages</p>
-						<a href="#" class="btn ord_btn">Order Now</a>
-					</div>
-				</div>
-			</div>
-		</div>
 	</section>
 	<section class="clients">
 		<div class="container">
