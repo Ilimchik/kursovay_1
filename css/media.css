@@ -60,6 +60,11 @@
 		flex-direction: column;
 	}
 
+	.card_price {
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+
 	.man_left {
 		width: 100%;
 	}
@@ -144,10 +149,12 @@
 	.burger {
 		display: none;
 	}
-.footer_main_menu{
-	margin-left: 20px;
-	/* margin-right: 20px; */
-}
+
+	.footer_main_menu {
+		margin-left: 20px;
+		/* margin-right: 20px; */
+	}
+
 	.card_selector {
 		display: none;
 	}

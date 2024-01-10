@@ -839,7 +839,6 @@ body {
 	padding-top: 24px;
 	padding-bottom: 32px;
 	width: 322.649px;
-	height: 456px;
 	border-radius: 8px;
 	background: #FFF;
 	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
@@ -847,7 +846,7 @@ body {
 
 .card_price {
 	justify-content: center;
-	margin: 40px;
+	margin-bottom: 20px;
 }
 
 .price_number {
@@ -873,7 +872,7 @@ body {
 	font-weight: 400;
 	line-height: 40px;
 	/* 250% */
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .number {
@@ -897,6 +896,8 @@ body {
 	line-height: 30px;
 	/* 125% */
 	letter-spacing: 0.1px;
+	text-align: left;
+	margin-top: 25px;
 }
 
 .per_curr {
@@ -912,11 +913,22 @@ body {
 
 .price_card_txt {
 	color: #22343D;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 22px; /* 137.5% */
-letter-spacing: 0.2px;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 22px;
+	/* 137.5% */
+	letter-spacing: 0.2px;
+	margin-bottom: 16px;
+
+}
+
+.price_btn {
+	display: inline-flex;
+	padding: 11px 19px 11px 18px;
+	justify-content: center;
+	align-items: center;
+	max-width: 139px;
 }
 
 /* clients */
