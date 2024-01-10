@@ -688,6 +688,8 @@ body {
 }
 
 .com_img_1 {
+	border-radius: 50px;
+	overflow: hidden;
 	width: 98px;
 	height: 98px;
 }
@@ -928,7 +930,17 @@ body {
 	padding: 11px 19px 11px 18px;
 	justify-content: center;
 	align-items: center;
+	border-radius: 8px;
+	background: #02897A;
+	color: #FFF;
 	max-width: 139px;
+}
+
+.price_btn:hover {
+	box-shadow: 0px 0px 0px 0px;
+	background: #fff;
+	color: #02897A;
+	border: solid 1px;
 }
 
 /* clients */
